@@ -1,0 +1,6 @@
+TTC
+1.  Analytics 
+2. Student  Management 
+3. Grade Management
+4. Download Certificate
+5. Candidate Profile

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ministry {
+  background: url("../img/login/ministry.png") no-repeat;
+}
+
+.bhc {
+  background: url("../img/login/ministry-dashboard-login.png") no-repeat;
+}
+
+.bra {
+  background: url("../img/login/ministry-dashboard-login.png") no-repeat;
+}
+
+.fra {
+  background: url("../img/login/ministry-dashboard-login.png") no-repeat;
+}
+
+.registration {
+  background: url("../img/login/registration.png") no-repeat;
+}
+
+.common_login {
+  background-position: left;
+  height: 100vh;
+  background-size: 50% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.common_login .login_left img {
+  margin-left: -41%;
+}
+
+.common_login .login_right {
+  padding: 50px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 3.11724px;
+}
+
+.common_login .login_right img {
+  width: 120px;
+}
+
+.common_login .login_right h2 {
+  font-weight: 500;
+  font-size: 23.8789px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #6D6E8C;
+  margin-top: 30px;
+}
+
+.common_login .login_right p {
+  font-weight: 400;
+  font-size: 16.7152px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #9C9C9C;
+}
+
+.common_login .login_right input {
+  padding: 14px;
+  background: #F3F6F9;
+  border: .5px solid #D9D9D9;
+  border-radius: 4.77577px;
+}
+
+.common_login .login_right p .forget {
+  font-weight: 400;
+  line-height: 29px;
+  color: #959494;
+}
+
+.common_login .login_right .login_btn {
+  display: block;
+  width: 100%;
+  background: #157E7D;
+  border-radius: 4.77577px;
+  color: #fff;
+  padding: 13px;
+  border: 1px solid transparent;
+}
+
+.common_login .login_right .login_btn:hover {
+  background: transparent;
+  color: #157E7D;
+  border: 1px solid #157E7D;
+}
+
+.common_login .login_right .not_reg {
+  font-weight: 400;
+  font-size: 14.0276px;
+  line-height: 29px;
+  color: #474747;
+  margin-top: 16px;
+}
+
+.common_login .login_right .not_reg a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Registration start */
+.registration select {
+  padding: 8px;
+  font-size: 13px;
+}
+
+.registration input {
+  padding: 8px !important;
+  font-size: 13px;
+}
+
+.registration label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #353766;
+}
+
+.registration .login_right .login_btn {
+  padding: 8px;
+}
+
+/* Registration end */
+@media (max-width: 1400px) {
+  .common_login {
+    background-size: 50% 100%;
+  }
+  .common_login .login_right {
+    padding: 30px;
+  }
+  .common_login .login_right img {
+    width: 75px;
+  }
+  .common_login .login_right h2 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .common_login .login_right p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .registration {
+    background-size: 42% 100% !important;
+  }
+}
+/*# sourceMappingURL=login.css.map */

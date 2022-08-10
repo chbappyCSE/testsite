@@ -1,0 +1,4 @@
+Employer Portal 
+1. Attestation Application View 
+2. Candidate Reporting
+3.Assign Job to RA 

@@ -1,0 +1,7 @@
+RA Portal
+1. Analytics 
+2. BMET Registration 
+3. Job Management  
+4. Candidate Profile
+5. Talent pool Search
+6. Candidate Management
